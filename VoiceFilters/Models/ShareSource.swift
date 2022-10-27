@@ -1,0 +1,3 @@
+enum ShareSource {
+    case instagram
+}

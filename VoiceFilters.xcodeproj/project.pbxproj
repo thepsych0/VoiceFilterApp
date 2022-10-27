@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7290FD828E8225E00C54914 /* VoiceFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7290FD728E8225E00C54914 /* VoiceFilter.swift */; };
+		D7290FDF28E823B300C54914 /* VideoPlaybackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7290FDE28E823B300C54914 /* VideoPlaybackPresenter.swift */; };
+		D7290FE128E826B100C54914 /* VideoPlaybackBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7290FE028E826B000C54914 /* VideoPlaybackBuilder.swift */; };
+		D7290FE328E860A300C54914 /* UIControl+addAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7290FE228E860A300C54914 /* UIControl+addAction.swift */; };
 		D7774C5F28E760EA002BC076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7774C5E28E760EA002BC076 /* AppDelegate.swift */; };
 		D7774C6128E760EA002BC076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7774C6028E760EA002BC076 /* SceneDelegate.swift */; };
-		D7774C6328E760EA002BC076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7774C6228E760EA002BC076 /* ViewController.swift */; };
-		D7774C6628E760EA002BC076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7774C6428E760EA002BC076 /* Main.storyboard */; };
+		D7774C6328E760EA002BC076 /* VideoPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7774C6228E760EA002BC076 /* VideoPlaybackViewController.swift */; };
 		D7774C6828E760EC002BC076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7774C6728E760EC002BC076 /* Assets.xcassets */; };
 		D7774C6B28E760EC002BC076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7774C6928E760EC002BC076 /* LaunchScreen.storyboard */; };
+		D7774C7B28E79250002BC076 /* UIView+pinToSuperview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7774C7A28E79250002BC076 /* UIView+pinToSuperview.swift */; };
+		D79B9EA428EA5B440058196C /* ShareSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79B9EA328EA5B440058196C /* ShareSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7290FD728E8225E00C54914 /* VoiceFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceFilter.swift; sourceTree = "<group>"; };
+		D7290FDE28E823B300C54914 /* VideoPlaybackPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackPresenter.swift; sourceTree = "<group>"; };
+		D7290FE028E826B000C54914 /* VideoPlaybackBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackBuilder.swift; sourceTree = "<group>"; };
+		D7290FE228E860A300C54914 /* UIControl+addAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+addAction.swift"; sourceTree = "<group>"; };
 		D7774C5B28E760EA002BC076 /* VoiceFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7774C5E28E760EA002BC076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7774C6028E760EA002BC076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7774C6228E760EA002BC076 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7774C6528E760EA002BC076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7774C6228E760EA002BC076 /* VideoPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackViewController.swift; sourceTree = "<group>"; };
 		D7774C6728E760EC002BC076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7774C6A28E760EC002BC076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7774C6C28E760EC002BC076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7774C7A28E79250002BC076 /* UIView+pinToSuperview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+pinToSuperview.swift"; sourceTree = "<group>"; };
+		D79B9EA328EA5B440058196C /* ShareSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7290FD628E8224F00C54914 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7290FD728E8225E00C54914 /* VoiceFilter.swift */,
+				D79B9EA328EA5B440058196C /* ShareSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7290FD928E8226700C54914 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				D7774C5E28E760EA002BC076 /* AppDelegate.swift */,
+				D7774C6C28E760EC002BC076 /* Info.plist */,
+				D7774C6928E760EC002BC076 /* LaunchScreen.storyboard */,
+				D7774C6028E760EA002BC076 /* SceneDelegate.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		D7290FDA28E822C700C54914 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				D7774C6728E760EC002BC076 /* Assets.xcassets */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		D7290FDB28E8236D00C54914 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D7290FDC28E8237300C54914 /* VideoPlayback */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D7290FDC28E8237300C54914 /* VideoPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				D7290FE028E826B000C54914 /* VideoPlaybackBuilder.swift */,
+				D7290FDE28E823B300C54914 /* VideoPlaybackPresenter.swift */,
+				D7774C6228E760EA002BC076 /* VideoPlaybackViewController.swift */,
+			);
+			path = VideoPlayback;
+			sourceTree = "<group>";
+		};
 		D7774C5228E760EA002BC076 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +112,22 @@
 		D7774C5D28E760EA002BC076 /* VoiceFilters */ = {
 			isa = PBXGroup;
 			children = (
-				D7774C5E28E760EA002BC076 /* AppDelegate.swift */,
-				D7774C6028E760EA002BC076 /* SceneDelegate.swift */,
-				D7774C6228E760EA002BC076 /* ViewController.swift */,
-				D7774C6428E760EA002BC076 /* Main.storyboard */,
-				D7774C6728E760EC002BC076 /* Assets.xcassets */,
-				D7774C6928E760EC002BC076 /* LaunchScreen.storyboard */,
-				D7774C6C28E760EC002BC076 /* Info.plist */,
+				D7774C7928E7923A002BC076 /* Extensions */,
+				D7290FD628E8224F00C54914 /* Models */,
+				D7290FDB28E8236D00C54914 /* Modules */,
+				D7290FDA28E822C700C54914 /* Recources */,
+				D7290FD928E8226700C54914 /* Setup */,
 			);
 			path = VoiceFilters;
+			sourceTree = "<group>";
+		};
+		D7774C7928E7923A002BC076 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7774C7A28E79250002BC076 /* UIView+pinToSuperview.swift */,
+				D7290FE228E860A300C54914 /* UIControl+addAction.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +190,6 @@
 			files = (
 				D7774C6B28E760EC002BC076 /* LaunchScreen.storyboard in Resources */,
 				D7774C6828E760EC002BC076 /* Assets.xcassets in Resources */,
-				D7774C6628E760EA002BC076 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7774C6328E760EA002BC076 /* ViewController.swift in Sources */,
+				D79B9EA428EA5B440058196C /* ShareSource.swift in Sources */,
+				D7290FD828E8225E00C54914 /* VoiceFilter.swift in Sources */,
+				D7290FE128E826B100C54914 /* VideoPlaybackBuilder.swift in Sources */,
+				D7774C6328E760EA002BC076 /* VideoPlaybackViewController.swift in Sources */,
+				D7774C7B28E79250002BC076 /* UIView+pinToSuperview.swift in Sources */,
+				D7290FE328E860A300C54914 /* UIControl+addAction.swift in Sources */,
 				D7774C5F28E760EA002BC076 /* AppDelegate.swift in Sources */,
+				D7290FDF28E823B300C54914 /* VideoPlaybackPresenter.swift in Sources */,
 				D7774C6128E760EA002BC076 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7774C6428E760EA002BC076 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7774C6528E760EA002BC076 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7774C6928E760EC002BC076 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +349,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R486S2NFSK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VoiceFilters/Info.plist;
+				INFOPLIST_FILE = VoiceFilters/Setup/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to record videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app wants to record sound.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your video library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +379,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R486S2NFSK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VoiceFilters/Info.plist;
+				INFOPLIST_FILE = VoiceFilters/Setup/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to record videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app wants to record sound.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your video library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VideoPlaybackPresenter.renderAudio():VideoPlaybackPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "engine.manualRenderingSampleTime">
+            </PersistentString>
+            <PersistentString
+               value = "audioFile.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoPlayerView.observeValue(forKeyPath:of:change:context:):VideoPlayerView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "number">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoPlaybackPresenter.apply(voiceFilter:):VideoPlaybackPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedFilter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.setupUI():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pitchControl.pitch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in VideoPlaybackPresenter.mergeVideoAndAudio(videoUrl:audioUrl:):VideoPlaybackPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "outputURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
